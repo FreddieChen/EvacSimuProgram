@@ -6,3 +6,5 @@ Hello, this is a test project.
 
 
 new
+
+new commit
