@@ -7,8 +7,8 @@ class Map(object):
         self.length = cabin_length  # 地图长度
         self.width = cabin_width    # 地图宽度
         self.cell_length = cell_length       # 网格边长
-        self.cells = [[Cell(i, j, cell_length) for j in range(int(aircraft.cabin_width/cell_length))]
-                      for i in range(int(aircraft.cabin_length/cell_length))]
+        self.cells = [[Cell(i, j, cell_length) for j in range(int(cabin_width/cell_length))]
+                      for i in range(int(cabin_length/cell_length))]
         # 网格矩阵
 
 
