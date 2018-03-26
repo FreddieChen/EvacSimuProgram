@@ -3,17 +3,16 @@
 class Monument(object):
     num_of_monument=0
     
-    def __init__(self,my_id,type,location,size_x,size_y,height,direction,passable):
-        self.my_id=my_id
-        self.type=type
-        self.location=location
-        self.size_x=size_x
-        self.size_y=size_y
-        self.height=height
-        self.direction=direction
-        self.passable=passable
+    def __init__(self,my_id,type,location):
+        self.my_id=my_id          # 座椅的编号
+        self.type=type            #  ='seat'
+        self.location=location    # 座椅的位置
+        self.add_in_distance=5    # 由于座椅增加的距离，翻阅座椅的时间5秒
 
 class ExitDoor(object):
 
-    def __init__(self,my_id,door_type,location,direction):
+    def __init__(self,my_id,type,location):
+        self.my_id=my_id          # 出口的编号
+        self.type=type            #  ='Exit'
+        self.location=location    # 位置
     
