@@ -3,11 +3,11 @@
 class People(object):
     num_of_people=0
     
-    def __init__(self,my_id,location_cell):
+    def __init__(self,my_id):
         self.my_id=my_id
         self.max_velocity=1
         self.velocity=None
-        self.location=location_cell
+        self.location=None
         self.chosen_exit=None
         self.direction=None
         self.next_location=None
