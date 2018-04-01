@@ -23,7 +23,8 @@ class Map(object):
         for exit_door in exit_doors:
             exit_door.location.nearest_exit=exit_door
             exit_door.location.distance_to_nearest_exit=0
-              
+
+
 
 
 
